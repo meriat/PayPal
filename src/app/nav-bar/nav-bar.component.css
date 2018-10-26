@@ -1,3 +1,64 @@
-ul{
+li{
     list-style-type: none;
+    display: inline;
+}
+
+.navbar {
+    display: block;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    /*border: 1px solid grey;*/
+    margin-left: -15px;
+    margin-right: -15px;
+    background-color:rgba(216, 203, 203, 0.5);
+  }
+
+  .main-menu-list li{
+      margin: 10px;
+  }
+  .header-buttons{
+      text-align: right;
+      margin: 10px;
+      margin-right: 50px;
+  }
+
+  #login{
+      background-color: transparent;
+      color: black;
+      border-radius: 40%;
+      font-family: "pp-sans-small-regular",Helvetica Neue,Arial,sans-serif;
+
+  }
+  #signup{
+      color: white;
+      border-radius: 40%;
+      font-family: "pp-sans-small-regular",Helvetica Neue,Arial,sans-serif;
+
+  }
+.login{
+  background: transparent;
+    border: none;
+    border-radius: 25px;
+    box-sizing: border-box;
+    color: black;
+    /* color: #fff; */
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-family: "pp-sans-small-regular",Helvetica Neue,Arial,sans-serif;
+    font-weight: normal;
+    font-variant: normal;
+    line-height: 12px;
+    min-width: 84px;
+    overflow: hidden;
+    padding: 12px 15px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    -ms-touch-action: none;
+    touch-action: none;
+    vertical-align: middle;
+    font-weight: bold;
 }
